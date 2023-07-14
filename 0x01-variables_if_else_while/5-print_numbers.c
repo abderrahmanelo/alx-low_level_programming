@@ -2,14 +2,14 @@
 /**
  * main - Entry point
  *
- * Return: return 0
+ * Return: alway return 0
  */
 int main(void)
 {
-	char a;
+	int a;
 
-	for (a = 'a'; a <= 'z' ; a++)
-		putchar(a);
+	for (a=0 ; a < 10 ; a++)
+		printf("%d", a);
 	putchar('\n');
 	return (0);
 }
