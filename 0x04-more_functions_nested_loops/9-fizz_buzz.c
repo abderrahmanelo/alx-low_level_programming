@@ -10,6 +10,7 @@
 int main(void)
 {
 	int i = 1;
+
 	while (i <= n)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
