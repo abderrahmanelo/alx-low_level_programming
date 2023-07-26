@@ -9,7 +9,7 @@
 
 int isPrintableASCII(int n)
 {
-	return (n >= 32 && n <= 126);
+        return (n >= 32 && n <= 126);
 }
 
 /**
@@ -21,18 +21,18 @@ int isPrintableASCII(int n)
 
 void printHexes(char *b, int start, int end)
 {
-	int i = 0;
+        int i = 0;
 
-	while (i < 10)
-	{
-		if (i < end)
-			printf("%02x", *(b + start + i));
-		else
-			printf("  ");
-		if (i % 2)
-			printf(" ");
-		i++;
-	}
+        while (i < 10)
+        {
+                if (i < end)
+                        printf("%02x", *(b + start + i));
+                else
+                        printf("  ");
+                if (i % 2)
+                        printf(" ");
+                i++;
+        }
 }
 
 /**
@@ -45,12 +45,16 @@ void printHexes(char *b, int start, int end)
 
 void printASCII(char *b, int start, int end)
 {
-	int ch, i = 0;
+        int ch, i = 0;
 
-	while (i < end)
-	{
-		ch = *(b + i + start);
-		if (!isPrintableASCII(ch))
-			ch = 46;
-		printf("%c", ch);
+        while (i < end)
+        {
+                ch = *(bntf("%c", ch);
+
+~
+~
+~
+~
+~
+-- INSERT --                                                                                                                                                                                                   52,11-25      All
 
